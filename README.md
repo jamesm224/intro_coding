@@ -17,6 +17,12 @@ pwd
 
 ```
 
+2. Install Conda
+
+3. Git clone the GORG pipeline
+
+4. Prepare data and run pipeline
+
 
 
 
