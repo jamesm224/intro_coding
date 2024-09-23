@@ -12,7 +12,7 @@ Engaging website: https://engaging-ood.mit.edu/pun/sys/dashboard
 Ensure your directory is your username. Run these commands:
 ```
 
-$HOME
+cd $HOME
 pwd
 
 ```
