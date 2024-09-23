@@ -5,9 +5,11 @@ Here is the official wiki page for additional question: https://engaging-web.mit
 
 # Tutorial
 
-1. Login to engaging: Engaging website: https://engaging-ood.mit.edu/pun/sys/dashboard
+1. Login to engaging:
+  Engaging website: https://engaging-ood.mit.edu/pun/sys/dashboard
+  Ensure your directory is your username. Run these commands:
 ```
-Ensure your directory is your username. Run these commands:
+
 $HOME
 pwd
 
