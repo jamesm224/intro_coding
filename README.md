@@ -30,7 +30,7 @@ mamba -h
 ```
 # 3. Create a mamba environment for your project
 ```
-mamba create -c bioconda -c conda-forge -n fun_bioinfo kaiju bbmap
+mamba create -c bioconda -c conda-forge -n fun_bioinfo kaiju bbmap bowtie2
 
 mamba activate fun_bioinfo
 ```
@@ -44,7 +44,7 @@ git clone https://github.com/jamesm224/intro_coding/
 # 5. Attempt to run the bash script on the test data
 
 ```
-sbatch run_data.sh
+sbatch run_test_script.sh
 ```
 
 
