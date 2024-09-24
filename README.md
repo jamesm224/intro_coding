@@ -30,9 +30,9 @@ mamba -h
 ```
 # 3. Create a mamba environment for your project
 ```
-mamba create -c bioconda -c conda-forge -n snakemake snakemake
+mamba create -c bioconda -c conda-forge -n fun_bioinfo kaiju bbmap
 
-mamba activate snakemake
+mamba activate fun_bioinfo
 ```
 
 # 4. Git clone this repository:
