@@ -52,6 +52,14 @@ chmod +x run_test_script.sh
 sbatch run_test_script.sh
 ```
 
+We made a bowtie script in case the kaiju one did not work
+```
+chmod +x run_bowtie_script.sh
+sbatch run_bowtie_script.sh
+```
+
+
+
 
 
 
