@@ -1,6 +1,7 @@
 # Introduction to Coding!!
-Here is a tutorial on how to login, use, and access engaging for MIT.
-Here is the official wiki page for additional question: https://engaging-web.mit.edu/eofe-wiki/
+Here is a tutorial on how to login, use, and access engaging for MIT. Here is the official wiki page for additional question: https://engaging-web.mit.edu/eofe-wiki/
+
+This tutorial was made by James Mullet and Nhi Vo!
 
 # 1. Login to engaging:
 
