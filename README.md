@@ -11,10 +11,8 @@ Engaging website: https://engaging-ood.mit.edu/pun/sys/dashboard
 
 Ensure your directory is your username. Run these commands:
 ```
-
 cd $HOME
 pwd
-
 ```
 
 2. Install Conda/Mamba - here is the link for more information: https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html
@@ -28,9 +26,28 @@ wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge
 bash Miniforge3-Linux-x86_64.sh
 ```
 
-4. Git clone the GORG pipeline
+To Test the pipeline installation has worked please try typing this command:
+```
+mamba -h
+```
+3. Create a mamba environment for your project
+```
+mamba create -c bioconda -c conda-forge -n snakemake snakemake
 
-5. Prepare data and run pipeline
+mamba activate snakemake
+```
+
+4. Git clone this repository:
+
+```
+git clone https://github.com/jamesm224/intro_coding/
+```
+
+5. Attempt to run the bash script on the test data
+
+```
+sbatch run_data.sh
+```
 
 
 
