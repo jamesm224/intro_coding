@@ -16,6 +16,10 @@ pwd
 # 2. Install Conda/Mamba - here is the link for more information: 
 https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html
 ```
+salloc -N 1 -n 2 --time=1:00:00 -p sched_mit_chisholm
+```
+
+```
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 bash Miniforge3-$(uname)-$(uname -m).sh
 ```
