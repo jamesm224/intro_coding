@@ -41,15 +41,20 @@ mamba activate fun_bioinfo
 ```
 git clone https://github.com/jamesm224/intro_coding/
 ```
-
-# 5. Attempt to run the bash script on the test data
-
+# 5. Work on running test bash script
 ```
 cd intro_coding/
-chmod +x run_test_script.sh
+chmod +x bioinfoJC_slurm_template.sh
 ```
 
 ```
+sbatch bioinfoJC_slurm_template.sh
+```
+
+# 6. Run the kaiju test data script
+
+```
+chmod +x run_test_script.sh
 sbatch run_test_script.sh
 ```
 
